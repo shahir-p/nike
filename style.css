@@ -1,0 +1,549 @@
+@font-face {
+    font-family: "helvetica";
+    src: url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("woff"),
+        url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("opentype"),
+        url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("truetype");
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "helvetica";
+
+    text-transform: none;
+
+
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.header {
+    padding: 0px 30px;
+    /* width: 100%; */
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-wrap: wrap;
+}
+
+.header a img {
+    width: 80px;
+}
+
+.nav-items {
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.icons1 {
+    height: 100%;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icons-items {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin-left: 10px;
+}
+
+.input input {
+    height: 30px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgb(128, 128, 128, 0.1);
+    position: relative;
+    padding-left: 30px;
+
+}
+
+.input input::placeholder {
+    padding-left: 0px;
+    font-size: 15px;
+}
+
+.search {
+    align-items: center;
+    padding-left: 5px;
+    position: absolute;
+    font-size: 20px;
+}
+
+#checkbox {
+    display: none;
+}
+
+.icons {
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    display: none;
+
+
+}
+
+.media-icons {
+    display: none;
+}
+
+.sidebarx {
+    display: none;
+}
+
+.offcanvas-body {
+    margin-top: 20px;
+}
+
+.menubar-items {
+
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 5px 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.right-icon {
+    float: right;
+}
+
+.jordan {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.jordan p {
+    padding-left: 20px;
+}
+
+.menu-p {
+    margin-top: 30px;
+    line-height: 1.5;
+    color: grey;
+    margin-left: 10px;
+}
+
+.menu-p a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu-buttons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.button-menu a {
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: black;
+    padding: 6px 12px;
+    font-size: 16px;
+    color: white;
+    border-radius: 12px;
+}
+
+.sign a {
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: white;
+    padding: 6px 12px;
+    font-size: 16px;
+    color: black;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.menu-bottom {
+    margin-top: 40px;
+}
+
+.bottom-items {
+    margin: 0px 0px 10px 10px;
+}
+
+.bottom-items a {
+    text-decoration: none;
+    color: black;
+}
+.video-container {
+
+
+    /* background-color:cadetblue; */
+    margin: 30px;
+}
+
+.video-container video {
+    width: 100%;
+
+}
+.subhead {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.mainhead {
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.slogan {
+
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.shop {
+    font-size: 18px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.btn1 a {
+    text-decoration: none;
+}
+.latest {
+    margin: 50px 30px 0px 30px;
+
+}
+
+.box-head {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.latest-container {
+    margin-top: 20px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-wrap: grid;
+}
+
+.latest-box {
+
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 80vh 10vh;
+    gap: 10px;
+}
+
+/* .latest-sbox{
+    background-color: green;
+} */
+.latest-sbox img {
+    width: 100%;
+    height: 100%;
+}
+
+.latest-name {
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+.trending {
+    margin: 50px 30px 20px 30px;
+    height: 100vh;
+  
+
+}
+
+.trend-container {
+   height: 92vh;
+   display: grid;
+   grid-auto-flow: column;
+   scroll-behavior: auto;
+   gap: 30px;
+   overflow-y: auto;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x mandatory;
+   scrollbar-width: none;
+}
+.trend-container ::-webkit-scrollbar{
+    display: none;
+}
+.card1{
+   margin-top: 20px;
+    scroll-snap-align: start;
+  
+    min-width: 450px;
+}
+.card1 .img{
+    
+    min-height: 70vh;
+    background-size: cover;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.img0{
+ 
+    
+    background-image: url("https://img.freepik.com/premium-photo/white-nike-shoe-with-white-logo-bottom_1207067-2788.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid");
+}
+.img1{ 
+    background-image: url("https://img.freepik.com/premium-photo/pair-running-shoes-mountain_1014647-996.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid");
+}
+.img2{
+background-image: url("https://img.freepik.com/premium-photo/person-is-wearing-nike-shoe-with-pink-nike-logo_1207067-2814.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid");
+}
+.img3{
+ 
+    
+    background-image: url("https://img.freepik.com/premium-photo/colorful-shoe-with-nike-logo-it_1068560-10859.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid");
+}
+.img4{
+ 
+    
+    background-image: url("https://img.freepik.com/premium-photo/picture-showcasing-pair-sneakers-rock_869640-596637.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid");
+}
+.img5{
+ 
+    
+    background-image: url("https://img.freepik.com/premium-photo/pair-blue-nike-shoes-with-nike-logo-side_1150321-6170.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid");
+}
+.img6{
+ 
+    
+    background-image: url("https://img.freepik.com/premium-photo/shoes-mock-up_1273586-4965.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid");
+}
+.img7{
+ 
+    
+    background-image: url("https://img.freepik.com/premium-photo/pair-sneakers-from-brand-new-collection_1207067-2665.jpg?uid=R114668176&ga=GA1.1.1837137669.1726030558&semt=ais_hybrid");
+}
+.trend-content{
+    margin-top: 10px;
+    
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+}
+.trend-name{
+    font-size: 20px;
+    font-weight: 500;
+}
+.trend-slogan{
+    font-size: 18px;
+    color: grey;
+}
+.trend-price{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:833px) {
+
+    .header {
+        padding: 0px 30px;
+        /* width: 100%; */
+        height: 60px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-wrap: wrap;
+        position: relative;
+    }
+
+    /* .logo {
+        
+        font-size: 25px;
+        font-weight: 600;
+       
+    } */
+    .icons {
+        display: flex;
+    }
+
+    .icons1 {
+        display: none;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 70px;
+        z-index: 2;
+        background-color: white;
+        width: 100%;
+        height: 160px;
+        display: none;
+
+
+    }
+
+    .navbar a {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    #close-icon {
+        display: none;
+    }
+
+    #checkbox:checked~.icons #menu-icon {
+        display: none;
+    }
+
+    #checkbox:checked~.icons #close-icon {
+        display: block;
+    }
+
+    /* #checkbox:checked~.navbar {
+        display: block;
+    } */
+    #checkbox:checked~.sidebarx {
+        height: 700px;
+        width: 60%;
+        background-color: white;
+        position: absolute;
+        display: block;
+        top: 60px;
+        right: 0px;
+
+    }
+
+    .media-search {
+        margin-left: -50px;
+    }
+
+    .media-icons {
+        padding-right: 25px;
+        display: flex;
+        position: absolute;
+        right: 40px;
+    }
+
+    #media-user {
+        margin-left: -2px;
+    }
+
+    .icons-items {
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        margin-left: 10px;
+    }
+
+    .sidebarx {
+        display: none;
+    }
+    .video-container {
+
+
+        /* background-color:cadetblue; */
+        margin: 30px;
+    }
+
+    .video-container video {
+        width: 100%;
+
+        background-size: cover;
+    }
+
+    .subhead {
+        margin-left: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: start;
+    }
+
+    .mainhead {
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: start;
+    }
+
+    .slogan {
+        margin: 10px 30px;
+
+
+        font-size: 15px;
+        font-weight: 400;
+        text-align: start;
+    }
+
+    .btn1 {
+        margin: 10px 30px;
+        margin-top: 20px;
+        text-align: start;
+    }
+
+    .latest-container {
+        margin-top: 20px;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .latest-box {
+
+        height: 60vh;
+        display: grid;
+        grid-template-rows: 50vh 10vh;
+        gap: 10px;
+    }
+    .trending {
+        margin: 750px 30px 20px 30px;
+        height: 100vh;
+      
+    
+    }
+    .card1{
+        margin-top: 10px;
+   
+        scroll-snap-align: start;
+      
+        min-width: 330px;
+    }
+}
