@@ -1,9 +1,8 @@
 @font-face {
-    font-family: "helvetica";
-    src: url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("woff"),
-        url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("opentype"),
-        url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("truetype");
-}
+    font-family:'Helvetica';
+    src: url(./img/HelveticaNowText-Medium.ttf)
+  
+  }
 
 
 * {
@@ -12,7 +11,7 @@
 }
 
 body {
-    font-family: "helvetica";
+    font-family: "Helvetica";
 
     text-transform: none;
 
@@ -43,7 +42,7 @@ body {
     text-decoration: none;
     font-size: 15px;
     margin-left: 10px;
-    font-weight: 600;
+    font-weight: 500;
     color: black;
 
 }
@@ -298,7 +297,10 @@ body {
    scrollbar-width: none;
 }
 .trend-container ::-webkit-scrollbar{
-    display: none;
+    width: 5px;
+}
+.trend-container ::-webkit-scrollbar-thumb{
+   background-color: black;
 }
 .card1{
    margin-top: 20px;
@@ -370,9 +372,77 @@ background-image: url("https://img.freepik.com/premium-photo/person-is-wearing-n
     font-size: 18px;
     font-weight: 400;
 }
+.classic{
+    margin: 50px 30px 20px 30px;
+    height: 50vh;
+    
+    /* background-color:  antiquewhite; */
+}
+.classic-slider{
+    margin: 20px 0px;
+    /* background-color:  greenyellow; */
+    height: 35vh;
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 20px;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory ;
+    scrollbar-width: none;
+    
+}
+.classic-box{
+    
+    scroll-snap-align: start;
+  
+    min-width: 250px;   
+    background-color:rgba(246,246,246,255);
+    display: grid;
+    grid-template-rows: 30vh 5vh;
+}
+.classic-img{
+    border: 2px solid white;
+}
+.classic-img0{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2a748438-2634-454a-b137-431f99e4db1a/NIKE+CORTEZ+TXT.png");
+    background-size: cover;
+}
+.classic-img1{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/202d540b-5aa9-4d60-9c9a-86475b81d34d/KILLSHOT+2+LEATHER.png");
+    background-size: cover;
+}
+.classic-img2{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5351ec85-027b-4421-a45c-3f47dfac60a9/PEGASUS+PLUS.png");
+    background-size: cover;
+}
+.classic-img3{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/abe4d35e-6f85-41ca-8b98-b8159c2a2def/W+NIKE+ZOOM+VOMERO+5.png");
+    background-size: cover;
+}
+.classic-img4{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5c2e795f-1b81-4203-82d2-663031b713e8/W+NIKE+V2K+RUN+GTX.png");
+    background-size: cover;
+}
+.classic-img5{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/87e1a107-173c-4c79-b111-7e3f4b03504e/NIKE+ZOOMX+VAPORFLY+NEXT%25+3.png");
+    background-size: cover;
+}
+.classic-img6{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0f76f73e-2578-4d62-abab-c5563ea4f78c/NIKE+DUNK+LOW+RETRO.png");
+    background-size: cover;
+}
+.classic-img7{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/85856382-79b6-4f28-af1e-4c056d371290/AIR+JORDAN+1+MID+SE.png");
+    background-size: cover;
+}
+.classic-name{
+font-size: 25px;
+font-weight: 800;
+text-align: center;
+margin-bottom: 15px;
 
-
-
+}
 
 
 
