@@ -202,7 +202,7 @@ body {
 }
 .subhead {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -215,8 +215,8 @@ body {
 
 .slogan {
 
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
     text-align: center;
 }
 
@@ -433,7 +433,7 @@ background-image: url("https://img.freepik.com/premium-photo/person-is-wearing-n
     background-size: cover;
 }
 .classic-img7{
-    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/85856382-79b6-4f28-af1e-4c056d371290/AIR+JORDAN+1+MID+SE.png");
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/685dd173-195c-4b28-aaf9-c91fd61dfd4c/WMNS+AIR+FORCE+1+%2707+ESS.png");
     background-size: cover;
 }
 .classic-name{
@@ -443,8 +443,232 @@ text-align: center;
 margin-bottom: 15px;
 
 }
+.miss{
+    margin: 50px 30px 20px 30px;
+    height: 100vh;
+    
+}
+.miss-img{
+    margin-top: 20px;
+    height: 90vh;
+  
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.miss-img .imgm1{
+    width: 100%;
+    height: 100%;
+  
+    background-image: url("./img/nike-just-do-it1.jpeg");
+    background-size: cover;
+}
+.miss-img .imgm2{
+    width: 100%;
+    height: 100%;
+ 
+    background-image: url("./img/nike-just-do-it2.jpeg");
+    background-size: cover;
+}
+.sport {
+    margin: 50px 30px 20px 30px;
+    height: 100vh;
+  
 
+}
 
+.sport-container {
+    /* border: 2px solid black; */
+   height: 50vh;
+   display: grid;
+   grid-auto-flow: column;
+   scroll-behavior: auto;
+   gap: 20px;
+   overflow-y: auto;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x mandatory;
+   scrollbar-width: none;
+}
+.card2{
+   margin-top: 20px;
+    scroll-snap-align: start;
+  
+    min-width:450px;
+    position: relative;
+}
+.card2 .spImg{
+    
+    min-height: 40vh;
+    background-size: cover;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn2 {
+    margin-top: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: 20%;
+    left: 7%;
+    z-index: 1;
+}
+
+.sp-btn {
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(128, 128, 128,0.8);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+   
+}
+
+.btn2 a {
+    text-decoration: none;
+}
+.sp-img0{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_600,c_limit/a3c971bc-bc0a-4c0c-8bdf-e807a3027e53/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sp-img1{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_600,c_limit/e4695209-3f23-4a05-a9f9-d0edde31b653/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sp-img2{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_600,c_limit/38ed4b8e-9cfc-4e66-9ddd-02a52314eed9/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sp-img3{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_600,c_limit/e36a4a2b-4d3f-4d1c-bc75-d6057b7cec87/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sp-img4{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_600,c_limit/7ce96f81-bf80-45b9-918e-f2534f14015d/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sp-img5{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_600,c_limit/6be55ac6-0243-42d6-87d0-a650074c658c/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sp-img6{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_600,c_limit/608705dc-dea5-4450-b68f-e624cf1ed2a7/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sp-img7{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_600,c_limit/c779e4f6-7d91-46c3-9282-39155e0819e5/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.member {
+    margin: -250px 30px 20px 30px;
+    height: 100vh;
+  
+
+}
+
+.member-container {
+    /* border: 2px solid black; */
+   height: 75vh;
+   display: grid;
+   grid-auto-flow: column;
+   scroll-behavior: auto;
+   gap: 20px;
+   overflow-y: auto;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x mandatory;
+   scrollbar-width: none;
+}
+.card3{
+   margin-top: 20px;
+    scroll-snap-align: start;
+  
+    min-width:450px;
+    position: relative;
+}
+.card3 .mbImg{
+    
+    min-height: 70vh;
+    background-size: cover;
+}
+.mbInside{
+    /* background-color: yellow; */
+    /* height: 25vh; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+    position: absolute;
+    bottom: 8%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.text1{
+    font-size: 15px;
+    color: white;
+}
+.text2{
+    font-size: 18px; 
+    color: white;
+}
+
+.btn3 {
+    margin-top: 20px;
+    
+}
+
+.mb-btn {
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+  
+}
+
+.btn3 a {
+    text-decoration: none;
+}
+.mb-img0{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_750,c_limit/cb28c551-b85b-479f-8fc3-40ad4e7c9ca4/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.mb-img1{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_750,c_limit/100ca749-1a94-4f98-bc43-a58e7e9cdbcf/nike-just-do-it.png");
+    background-size: cover;
+    background-position: center;
+}
+.mb-img2{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_750,c_limit/39412611-0af5-4770-8c2e-ef5c23bc6a3d/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.mb-img3{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_750,c_limit/a9767bce-db10-41ff-9eb5-f5daf8bbb3e6/nike-just-do-it.png");
+    background-size: cover;
+    background-position: center;
+}
+.mb-img4{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_750,c_limit/37b262a3-c8c7-49e8-a29f-8d46bc8ab950/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.mb-img5{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_750,c_limit/c17ae904-9307-4575-8ac1-ad08adafe17f/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 
 
@@ -616,4 +840,76 @@ margin-bottom: 15px;
       
         min-width: 330px;
     }
+    .miss{
+        margin: 50px 30px -350px 30px;
+        height: 100vh;
+        
+    }
+    .miss-img{
+        margin-top: 20px;
+        height: 100vh;
+      
+        display: grid;
+        grid-template-columns: repeat(auto);
+    }
+    .miss-img .imgm1{
+        width: 200%;
+        height: 50%;
+      
+        background-image: url("./img/nike-just-do-it1.jpeg");
+        background-size: cover;
+    }
+    .miss-img .imgm2{
+        width: 100%;
+        height: 100%;
+     
+        background-image: url("./img/nike-just-do-it2.jpeg");
+        background-size: cover;
+        display: none;
+    }
+    .sport {
+        margin: 50px 30px 20px 30px;
+        height: 100vh;
+      
+    
+    }
+    
+ 
+    .card2{
+       margin-top: 20px;
+        scroll-snap-align: start;
+      
+        min-width:250px;
+        position: relative;
+    }
+    .member-container {
+        /* border: 2px solid black; */
+       height: 55vh;
+       display: grid;
+       grid-auto-flow: column;
+       scroll-behavior: auto;
+       gap: 20px;
+       overflow-y: auto;
+       overscroll-behavior-x: contain;
+       scroll-snap-type: x mandatory;
+       scrollbar-width: none;
+    }
+    .card3{
+        margin-top: 20px;
+         scroll-snap-align: start;
+       
+         min-width:250px;
+         position: relative;
+     }
+     .card3 .mbImg{
+    
+        min-height: 50vh;
+        background-size: cover;
+    }
+   
 }
+
+
+
+
+
