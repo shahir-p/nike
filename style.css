@@ -669,14 +669,17 @@ margin-bottom: 15px;
     background-size: cover;
     background-position: center;
 }
-.footerTop{
-    margin-top: -150px;
+
+ .footerTop{
+    /* border: 2px solid black; */
     height: 30vh;
-    /* background-color: yellowgreen; */
+    margin: -100px 30px 30px 30px;
     display: grid;
-    grid-template-columns: repeat(4,250px);
+    grid-template-columns: repeat(4,auto);
     justify-content: center;
-}
+    gap:10vh;
+ }
+
 
 .thead{
     font-size: 20px;
@@ -968,9 +971,9 @@ hr{
         height: 40vh;
         /* background-color: yellowgreen; */
         display: grid;
-        grid-template-columns: repeat(1,250px);
-        justify-content: center;
-        gap: -50px;
+        grid-template-columns: repeat(1,50px);
+        justify-content: left;
+        
     }
     
     .thead{
